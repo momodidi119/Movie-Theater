@@ -1,6 +1,4 @@
-To create an online movie theater
-
-
+# CS6314-Web
 TODO List
 
 1. index.html

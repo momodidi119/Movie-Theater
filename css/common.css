@@ -1,0 +1,78 @@
+.background {
+    background-color: black;
+}
+
+.nav-text {
+    font-size: 16px;
+}
+
+.signin-show {
+    display: none;
+}
+
+.add-delete-movie {
+    display: none;
+}
+
+.user-show {
+    display: none;
+}
+
+.btn-default {
+    border: 2px solid black
+}
+
+.error {
+    color: red;
+}
+
+.shopping-icon {
+    position: relative;
+}
+
+.food-background {
+    background-image: radial-gradient(circle at right bottom, rgba(54, 124, 192, 0.8) 10%, rgb(0, 0, 0) 70%);
+    padding-top: 3rem;
+}
+
+.card-style {
+    width: 32rem;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 0px;
+}
+
+.card-text {
+    color: #fff;
+    font-size: 30px;
+}
+
+.card-body {
+    padding: 20px 0 0 0;
+}
+
+.media-div {
+    height: 110px;
+    line-height: 110px;
+    margin: auto;
+}
+
+.footer-background {
+    background-color: #171717;
+}
+
+.footer-div {
+    margin: auto;
+}
+
+.footer-title-style {
+    margin: 10px auto;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-body-style {
+    font-size: 14px;
+    color: #ffffff
+}
