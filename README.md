@@ -27,7 +27,7 @@ Functions of Movie Theater
       3. API for extracting Coming Next picture information (tentative, maybe not have coming next section anymore)
       4. API for extracting Top Select picture information (tentative, maybe not have top select section anymore)
       5. API for extracting food&drink picture and content information
- Implement of login and register.
+Implement of login and register.
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/login.png)
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/register.png)
 2. movie.html
@@ -42,6 +42,9 @@ Functions of Movie Theater
          7. rate
          8. movie mid-picture url
       2. API for this specific movie's stage pictures (multiple pictures)
+![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/movie_page.png)    
+![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/movie_image_setting.png)   
+![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/modify_delete_movie.png)   
 3. shoppingCart.html
    1. Details:
       1. need to add event to proceed to checkout button, send information back to DB
