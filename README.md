@@ -1,5 +1,8 @@
-# CS6314-Web
-TODO List
+Moive Theater
+
+Introduction
+
+The purpose of this project is to create an online movie theater web application. Several functions are presented in the project. From customer perspective, new movies will be available to them and customer will be able to search a movie and reserve seats for the time they select. From movie theater perspective, the official is able to manage the details of movie, ticket, customer, show timing. It manages all the necessary administrative functions. Few assumptions will be made based upon real world situation. First of all, user registration is only limited to the regular customer and website administrator will be given the only account without registering themselves. Second, each user is only allowed to buy limited number of tickets for each specific movie. Meanwhile, it is designed to allow customers to add only one movie at a time to the shopping cart. If there is a movie in the shopping needed to be checkout, user will not be able to add another one. All these limitations and constraints are considered for the fairness and anti-speculation.
 
 1. index.html
    1. TODO
