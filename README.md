@@ -8,7 +8,7 @@ The purpose of this project is to create an online movie theater web application
 
 Database Design
 -----------
-
+![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/database.png)
 1. index.html
    1. TODO
       1. admin edit modal, still missing room and time information
