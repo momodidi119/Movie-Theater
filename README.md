@@ -63,7 +63,9 @@ Implement of login and register.
          1. input 1: date ---- year-month-day
          2. input 2: movie name
          3. return type should follow only show time ---- 12:40pm etc
-
+![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/shopping_cart.png)
+![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/food_view.png)
+![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/buy_ticket.png)
 4. search.html
    1. Details:
       1. search recommendation: when one letter is typed, it should have suggestion
@@ -79,4 +81,4 @@ Implement of login and register.
       3. API for search button, should return
          1. movie middle image url
          2. movie descriotion (maybe)
-
+![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/search_view.png)
