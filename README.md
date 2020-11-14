@@ -19,7 +19,7 @@ For the front end, CSS, HTML and JAVASCRIPT is used to build up the general layo
 
 Functions of Movie Theater
 ---------------
-1. index.htmlTODO
+1. [index.html](https://github.com/momodidi119/Movie-Theater/blob/master/index.html)
    1. Details: admin edit modal, still missing room and time information
    2. Need:
       1. API for extracting carousel picture information
@@ -30,7 +30,7 @@ Functions of Movie Theater
 Implement of login and register.
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/login.png)
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/register.png)
-2. movie.html
+2. [movie.html](https://github.com/momodidi119/Movie-Theater/blob/master/movie.html)
    1. Need:
       1. API for extracting a specific movie information, including
          1.  movie name
@@ -45,7 +45,7 @@ Implement of login and register.
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/movie_page.png)    
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/movie_image_setting.png)   
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/modify_delete_movie.png)   
-3. shoppingCart.html
+3. [shoppingCart.html](https://github.com/momodidi119/Movie-Theater/blob/master/shoppingCart.html)
    1. Details:
       1. need to add event to proceed to checkout button, send information back to DB
       2. need to add event to "Buy a Ticket", send information back to DB
@@ -66,7 +66,7 @@ Implement of login and register.
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/shopping_cart.png)
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/food_view.png)
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/buy_ticket.png)
-4. search.html
+4. [search.html](https://github.com/momodidi119/Movie-Theater/blob/master/search.html)
    1. Details:
       1. search recommendation: when one letter is typed, it should have suggestion
       2. add event to search button
