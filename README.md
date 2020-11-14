@@ -15,7 +15,7 @@ movie. As long as a movie is decided to be removed, delete flag will be on but i
 
 Languages and Frameworks for Implementation
 -------------------
-For the front end, CSS, HTML and JAVASCRIPT is used to build up the general layout and appearance of the website. To make the website presented in a more beautiful and professional way, bootstrap is used. For the easiness of frontend and backend communication, the team utilizes the functions brought by jQuery and mainly its element selection and ajax function. Backend is heavily relied on the PHP languages and it is used to connect frontend with database and process the requested data. Relational database design is used for the reason that it could better present the relations and make it easier for storing data and information.
+For the front end, `CSS`, `HTML` and `JAVASCRIPT` is used to build up the general appearance of website. To make the website presented in a more beautiful and professional way, `bootstrap` is used. For the easiness of frontend and backend communication, the team utilizes the functions brought by `jQuery` and mainly its element selection and ajax function. Backend is heavily relied on the`PHP` languages and it is used to connect frontend with database and process the requested data. Relational database design is used for the reason that it could better present the relations and make it easier for storing data and information.
 
 Functions of Movie Theater
 ---------------
@@ -45,7 +45,7 @@ Implement of login and register.
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/movie_page.png)    
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/movie_image_setting.png)   
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/modify_delete_movie.png)   
-3. [shoppingCart.html](https://github.com/momodidi119/Movie-Theater/blob/master/shoppingCart.html)
+3. [shoppingCart.html](https://github.com/momodidi119/Movie-Theater/blob/master/shopping.html)
    1. Details:
       1. need to add event to proceed to checkout button, send information back to DB
       2. need to add event to "Buy a Ticket", send information back to DB
