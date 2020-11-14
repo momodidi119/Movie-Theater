@@ -9,20 +9,27 @@ The purpose of this project is to create an online movie theater web application
 Database Design
 -----------
 The whole database design is strictly followed by the 3NF standard. Information will be stored accordingly and separately to achieve the robustness and completeness. As project statement requires the soft deletion, the team utilizes a delete flag inside the movie relation to realize so. As either pages load, administrator edits or user requests, as long as delete flag is on, it will not be in consideration. Administrator is allowed to create, read, modify and delete a
-movie. As long as a movie is decided to be removed, delete flag will be on but it will still be inside database. All the time it schedules to show will be deleted physically so it could release the time it takes. The SQL statement we used to create database is in the [SQL Folder](https://github.com/momodidi119/Movie-Theater/tree/master/sql).
+movie. As long as a movie is decided to be removed, delete flag will be on but it will still be inside database. All the time it schedules to show will be deleted physically so it could release the time it takes. The SQL statement we used to create database is in the [SQL](https://github.com/momodidi119/Movie-Theater/tree/master/sql) Folder.
 
 ![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/database.png)
 
+Languages and Frameworks for Implementation
+-------------------
+For the front end, CSS, HTML and JAVASCRIPT is used to build up the general layout and appearance of the website. To make the website presented in a more beautiful and professional way, bootstrap is used. For the easiness of frontend and backend communication, the team utilizes the functions brought by jQuery and mainly its element selection and ajax function. Backend is heavily relied on the PHP languages and it is used to connect frontend with database and process the requested data. Relational database design is used for the reason that it could better present the relations and make it easier for storing data and information.
 
-1. index.html
-   1. TODO
-      1. admin edit modal, still missing room and time information
+Functions of Movie Theater
+---------------
+1. index.htmlTODO
+   1. Details: admin edit modal, still missing room and time information
    2. Need:
       1. API for extracting carousel picture information
       2. API for extracting what's new picture information
       3. API for extracting Coming Next picture information (tentative, maybe not have coming next section anymore)
       4. API for extracting Top Select picture information (tentative, maybe not have top select section anymore)
       5. API for extracting food&drink picture and content information
+ Implement of login and register.
+![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/login.png)
+![image](https://github.com/momodidi119/Movie-Theater/blob/master/readmeImages/register.png)
 2. movie.html
    1. Need:
       1. API for extracting a specific movie information, including
@@ -36,7 +43,7 @@ movie. As long as a movie is decided to be removed, delete flag will be on but i
          8. movie mid-picture url
       2. API for this specific movie's stage pictures (multiple pictures)
 3. shoppingCart.html
-   1. TODO
+   1. Details:
       1. need to add event to proceed to checkout button, send information back to DB
       2. need to add event to "Buy a Ticket", send information back to DB
    2. Need:
@@ -55,7 +62,7 @@ movie. As long as a movie is decided to be removed, delete flag will be on but i
          3. return type should follow only show time ---- 12:40pm etc
 
 4. search.html
-   1. TODO:
+   1. Details:
       1. search recommendation: when one letter is typed, it should have suggestion
       2. add event to search button
       3. add event to each categories
